@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Museo, sans-serif;
+  color: $dark-color;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  &_consult {
+    font-size: 36px;
+    line-height: 1.5;
+    color: $white-color;
+    text-align: left;
+  }
+}
